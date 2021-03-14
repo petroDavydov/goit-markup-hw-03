@@ -12,6 +12,16 @@
   --color-link: #757575;
 }
 
+html{
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
