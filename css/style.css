@@ -230,11 +230,11 @@ li {
   color: var(--paragraph-color);
 }
 
-footer {
+.footer {
   background: var(--background-slogan);
 }
 
-address {
+.address {
   font-style: inherit;
   color: var(--btn-color);
 }
