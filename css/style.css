@@ -10,6 +10,7 @@
   --btn-color: #fff;
   --color-zsix: rgba(255, 255, 255, 0.6);
   --color-link: #757575;
+  --color-active: #b93fd28f;
 }
 
 html{
@@ -175,6 +176,11 @@ li {
 .slogan-button:hover, .slogan-button:focus{
 	color: var(--btn-color);
 	background-color: var(--hover-color);
+}
+
+.slogan-button:active{
+	background-color: var(--color-active);
+	color: var(--btn-color);
 }
 
 /* slogan section end */
