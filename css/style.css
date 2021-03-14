@@ -153,6 +153,12 @@ li {
   overflow: hidden;
 }
 
+.container {
+	width: 1200px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 /* header end */
 
 /*?SLOGAN */
