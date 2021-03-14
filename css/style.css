@@ -30,6 +30,8 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
+  margin: 0;
+  padding: 0;
 }
 
 a,
