@@ -1,0 +1,275 @@
+/* Default value */
+/* root */
+:root {
+  --primary-color: #2196f3;
+  --main-color: #212121;
+  --paragraph-color: #757575;
+  --background-slogan: #2f303a;
+  --btn-color: #fff;
+  --color-zsix: rgba(255, 255, 255, 0.6);
+  --color-link: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--main-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+  color: var(--main-color);
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.typical-link {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  --paragraph-color: #757575;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--btn-color);
+  font-family: Roboto;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--btn-color);
+  color: var(--primary-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--primary-color);
+  background-color: var(--btn-color);
+}
+
+/*and default style */
+
+/* header */
+
+/* .navigation {
+} */
+
+.logo,
+.logo:hover,
+.logo:focus {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--primary-color);
+}
+
+.logoF,
+.logoF:hover,
+.logoF:focus {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--btn-color);
+}
+
+/* .menu {
+}
+
+.menu {
+}
+
+.menu-item {
+}
+
+.menu-link {
+ } */
+
+.menu-link:hover,
+.menu-link:focus,
+.linkM:hover,
+.linkM:focus,
+.linkT:hover,
+.linkT:focus {
+  color: var(--primary-color);
+}
+
+.linkM,
+.linkT {
+  color: var(--color-link);
+  font-weight: 500;
+}
+
+/* .connect {
+}
+
+.connect-item {
+}
+
+.linkT {
+} */
+
+/* header end */
+
+/* slogan section */
+
+.slogan {
+  background-color: var(--background-slogan);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.slogan-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* slogan section end */
+
+/* marits section */
+
+.marits-trait {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.marits-info {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+
+/* marits section end */
+
+/* business section, team section */
+
+.business-title,
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* business section end */
+
+/* team section */
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-name:hover,
+.team-name:focus,
+.team-position:hover,
+.team-position:focus {
+  color: var(--primary-color);
+}
+
+.team-position {
+  color: var(--paragraph-color);
+}
+
+footer {
+  background: var(--background-slogan);
+}
+
+address {
+  font-style: inherit;
+  color: var(--btn-color);
+}
+
+.link-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color-zsix);
+}
+
+/* team section end*/
+
+/* portfolio-pointers */
+
+.portfolio-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+
+.portfolio-description:hover,
+.portfolio-name:hover {
+  color: var(--primary-color);
+}
+
+.btn-portfolio {
+  font-weight: 500;
+}
+
+/* portfolio-pointers end */
