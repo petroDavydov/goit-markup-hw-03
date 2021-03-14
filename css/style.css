@@ -98,6 +98,8 @@ li {
 
 /*and default style */
 
+/*?HEADER */
+
 .logo,
 .logo:hover,
 .logo:focus {
@@ -142,7 +144,7 @@ li {
 
 /* header end */
 
-/* slogan section */
+/*?SLOGAN */
 
 .slogan {
   background-color: var(--background-slogan);
@@ -180,7 +182,7 @@ li {
 
 /* slogan section end */
 
-/* marits section */
+/*?MERITS */
 
 .marits-trait {
   font-size: 14px;
@@ -198,7 +200,7 @@ li {
 
 /* marits section end */
 
-/* business section, team section */
+/*?BUSINESS */
 
 .business-title,
 .team-title {
@@ -210,7 +212,7 @@ li {
 
 /* business section end */
 
-/* team section */
+/*? TEAM */
 
 .team-name {
   font-weight: 500;
@@ -230,27 +232,9 @@ li {
   color: var(--paragraph-color);
 }
 
-.footer {
-  background: var(--background-slogan);
-}
-
-.address {
-  font-style: inherit;
-  color: var(--btn-color);
-}
-
-.link-footer {
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--color-zsix);
-}
-
 /* team section end*/
 
-/* portfolio-pointers */
+/*?PORTFOLIO */
 
 .portfolio-name {
   font-weight: bold;
@@ -276,3 +260,23 @@ li {
 }
 
 /* portfolio-pointers end */
+
+/*?FOOTER */
+
+.footer {
+  background: var(--background-slogan);
+}
+
+.address {
+  font-style: inherit;
+  color: var(--btn-color);
+}
+
+.link-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color-zsix);
+}
