@@ -12,6 +12,7 @@
   --color-link: #757575;
   --color-active: #b93fd28f;
   --btn-bg-color: #f5f4fa;
+  --card-set-gap: 30px;
 }
 
 html {
@@ -75,8 +76,8 @@ a:focus {
   overflow: hidden;
 }
 
-.current{
-	color: var(--primary-color);
+.current {
+  color: var(--primary-color);
 }
 
 p {
@@ -90,6 +91,12 @@ li {
   display: block;
   padding: 0;
   margin: 0;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: 100%;
 }
 
 .btn {
@@ -237,6 +244,25 @@ li {
 
 /*?BUSINESS */
 
+/*! reticle business*/
+
+.business-direction {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.business-direction > .business-item {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+/*! reticle business end */
+
 .business-title,
 .team-title {
   font-weight: bold;
@@ -251,8 +277,8 @@ li {
 
 /*? TEAM */
 
-.team{
-	background-color: var(--btn-bg-color);
+.team {
+  background-color: var(--btn-bg-color);
 }
 
 .team-name {
@@ -277,8 +303,8 @@ li {
 
 /*?PORTFOLIO */
 
-.portfolio-list-button{
-	margin-bottom: 30px;
+.portfolio-list-button {
+  margin-bottom: 30px;
 }
 
 .btn-portfolio {
@@ -297,9 +323,8 @@ li {
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-	color: var(--btn-color);
-	background-color: var(--primary-color);
-
+  color: var(--btn-color);
+  background-color: var(--primary-color);
 }
 
 .portfolio-name {
