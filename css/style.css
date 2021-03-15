@@ -15,6 +15,8 @@
   --card-set-gap: 30px;
   --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  --card-border-color: #eeeeee;
 }
 
 html {
@@ -313,8 +315,6 @@ img {
 
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
-
-  /* outline: 1px solid red; */
 }
 
 .team-member-thumb {
@@ -408,6 +408,50 @@ img {
 .btn-portfolio {
   font-weight: 500;
 }
+
+/*! reticle portfolio*/
+
+.portfolio-pointers {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.portfolio-pointers > .portfolio-point {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+.portfolio-point:nth-child(3n + 1) {
+  margin-left: 0;
+}
+.portfolio-point {
+  background-color: var(--btn-color);
+  border: 1px solid var(--card-border-color);
+}
+
+.portfolio-info {
+  margin: 20px 24px;
+}
+
+.portfolio-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+
+/*! reticle portfolio end */
 
 /* portfolio-pointers end */
 
