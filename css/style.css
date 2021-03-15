@@ -63,6 +63,17 @@ a:focus {
   letter-spacing: 0.02em;
 }
 
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -142,23 +153,12 @@ li {
   font-weight: 500;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
 .container {
-	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: 15px;
-	padding-left: 15px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* header end */
@@ -167,9 +167,11 @@ li {
 
 .slogan {
   background-color: var(--background-slogan);
+  text-align: center;
 }
 
 .main-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -196,7 +198,7 @@ li {
   background-color: var(--hover-color);
 }
 
-.slogan-button:active{
+.slogan-button:active {
   background-color: var(--color-active);
   color: var(--btn-color);
 }
