@@ -251,6 +251,10 @@ li {
 
 /*? TEAM */
 
+.team{
+	background-color: var(--btn-bg-color);
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
