@@ -11,6 +11,7 @@
   --color-zsix: rgba(255, 255, 255, 0.6);
   --color-link: #757575;
   --color-active: #b93fd28f;
+  --btn-bg-color: #f5f4fa;
 }
 
 html {
@@ -107,10 +108,9 @@ li {
   background-color: var(--btn-color);
 }
 
-.section{
-	padding-top: 94px;
-	padding-bottom: 94px;
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*and default style */
@@ -264,6 +264,27 @@ li {
 /* team section end*/
 
 /*?PORTFOLIO */
+
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  padding: 6px 22px;
+  background-color: var(--btn-bg-color);
+  color: var(--main-color);
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+	color: var(--btn-color);
+	background-color: var(--primary-color);
+	
+}
 
 .portfolio-name {
   font-weight: bold;
