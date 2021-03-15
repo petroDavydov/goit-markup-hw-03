@@ -185,7 +185,9 @@ li {
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px var(--box-shadow);
   border-radius: 4px;
-  border: none;
+  border: transparent;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 
 .slogan-button:hover,
@@ -194,7 +196,7 @@ li {
   background-color: var(--hover-color);
 }
 
-.slogan-button:active {
+.slogan-button:active{
   background-color: var(--color-active);
   color: var(--btn-color);
 }
