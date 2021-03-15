@@ -107,6 +107,12 @@ li {
   background-color: var(--btn-color);
 }
 
+.section{
+	padding-top: 94px;
+	padding-bottom: 94px;
+
+}
+
 /*and default style */
 
 /*?HEADER */
