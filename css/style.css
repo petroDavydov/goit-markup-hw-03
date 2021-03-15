@@ -223,6 +223,7 @@ li {
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .marits-info {
@@ -241,6 +242,7 @@ li {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 /* business section end */
@@ -268,6 +270,10 @@ li {
 /* team section end*/
 
 /*?PORTFOLIO */
+
+.portfolio-list-button{
+	margin-bottom: 30px;
+}
 
 .btn-portfolio {
   font-weight: 500;
