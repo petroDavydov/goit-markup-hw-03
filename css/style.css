@@ -225,13 +225,32 @@ img {
 
 /*?MERITS */
 
+/*! reticle marits*/
+
+.marits-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.marits-list > .merits-item {
+  flex-basis: calc(100% / 4 - var(--card-set-gap));
+
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+/*! reticle marits end */
+
 .marits-trait {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .marits-info {
