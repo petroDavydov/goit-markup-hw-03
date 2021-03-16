@@ -40,11 +40,9 @@ body {
 }
 
 .container {
-  width: 1220px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
 h1,
@@ -484,10 +482,6 @@ img {
   margin-top: var(--card-set-gap);
 }
 
-.portfolio-point:nth-child(3n + 1) {
-  margin-left: 0;
-}
-
 .portfolio-point {
   background-color: var(--btn-color);
   border: 1px solid var(--card-border-color);
@@ -517,19 +511,26 @@ img {
 /*?FOOTER */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--background-slogan);
+}
+
+.logoF {
+  margin-bottom: 20px;
 }
 
 .address {
   font-style: inherit;
   color: var(--btn-color);
+  margin-top: 20px;
 }
 
 .link-footer {
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 14px;
+  display: inline-block;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--color-zsix);
+  padding: 0;
+  padding-top: 9px;
 }
