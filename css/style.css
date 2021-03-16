@@ -247,7 +247,6 @@ img {
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
-  
 }
 
 .slogan-button {
@@ -313,6 +312,7 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--paragraph-color);
+  max-width: 270px;
 }
 
 /* marits section end */
@@ -415,7 +415,13 @@ img {
 /*?PORTFOLIO */
 
 .portfolio-list-button {
-  margin-bottom: 30px;
+  margin-bottom: 46px;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-item-button:not(:last-child) {
+  margin-right: 8px;
 }
 
 .btn-portfolio {
