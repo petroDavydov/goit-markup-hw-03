@@ -244,6 +244,10 @@ img {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
+  max-width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  
 }
 
 .slogan-button {
