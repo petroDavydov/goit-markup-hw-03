@@ -316,11 +316,11 @@ img {
 
 /*?BUSINESS */
 
-/*! reticle business*/
-
 .business {
   padding-top: 0;
 }
+
+/*! reticle business*/
 
 .business-direction {
   display: flex;
