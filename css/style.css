@@ -509,6 +509,14 @@ img {
   background: var(--background-slogan);
 }
 
+.footer-list{
+	margin-top: 20px;	
+}
+
+.footer-list-item{
+margin-top: 9px;
+}
+
 .logoF {
   margin-bottom: 20px;
 }
@@ -516,7 +524,6 @@ img {
 .address {
   font-style: inherit;
   color: var(--btn-color);
-  margin-top: 20px;
 }
 
 .link-footer {
@@ -525,5 +532,4 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-zsix);
   padding: 0;
-  padding-top: 9px;
 }
