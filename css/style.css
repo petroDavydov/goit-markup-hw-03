@@ -277,9 +277,11 @@ img {
 
 /*?MERITS */
 
-/*! reticle marits*/
-
-.marits-list {
+/*!retical common functions*/
+.marits-list,
+.business-direction,
+.team-list,
+.portfolio-pointers {
   display: flex;
   flex-wrap: wrap;
 
@@ -287,11 +289,19 @@ img {
   margin-top: calc(-1 * var(--card-set-gap));
 }
 
-.marits-list > .merits-item {
-  flex-basis: calc(100% / 4 - var(--card-set-gap));
-
+.marits-list > .merits-item,
+.business-direction > .business-item,
+.team-list > .team-member,
+.portfolio-pointers > .portfolio-point {
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
+}
+/*!retical common functions end*/
+
+/*! reticle marits*/
+
+.marits-list > .merits-item {
+  flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
 
 /*! reticle marits end */
@@ -322,19 +332,8 @@ img {
 
 /*! reticle business*/
 
-.business-direction {
-  display: flex;
-  flex-wrap: wrap;
-
-  margin-left: calc(-1 * var(--card-set-gap));
-  margin-top: calc(-1 * var(--card-set-gap));
-}
-
 .business-direction > .business-item {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
-
-  margin-left: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
 }
 
 /*! reticle business end */
@@ -355,19 +354,8 @@ img {
 
 /*! reticle team*/
 
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-
-  margin-left: calc(-1 * var(--card-set-gap));
-  margin-top: calc(-1 * var(--card-set-gap));
-}
-
 .team-list > .team-member {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
-
-  margin-left: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
 }
 
 .team-info {
@@ -456,23 +444,16 @@ img {
 
 /*! reticle portfolio*/
 
-.portfolio-pointers {
+/* .portfolio-pointers {
   display: flex;
   flex-wrap: wrap;
 
   margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
-}
+} */
 
 .portfolio-pointers > .portfolio-point {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
-
-  margin-left: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
-}
-
-.portfolio-point:nth-child(3n + 1) {
-  margin-left: 30px;
 }
 
 .portfolio-point {
